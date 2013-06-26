@@ -1,0 +1,1 @@
+Copy the code that should go into the package into the appropriate directory, cd in and run something like `debchange -v package_0.2.0-1` to add an entry to the changelog, then run `debuild -S` to build the changes file. You can then cd up to the parent directory and run `dput ppa:oae/deps package_0.2.0-1_source.changes` to put it in the PPA.
