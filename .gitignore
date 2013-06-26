@@ -4,3 +4,4 @@
 *.dsc
 *.ppa.upload
 *.changes
+*.diff.gz

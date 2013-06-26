@@ -20,7 +20,7 @@ expect fork
 # Pass along some environment variables
 env NODE_ENV=production
 
-chdir /opt/hilary
+chdir /opt/oae
 script
     exec /usr/bin/node app.js &
 end script
