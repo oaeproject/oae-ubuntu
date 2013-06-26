@@ -1,0 +1,13 @@
+Source: oae-full
+Section: misc
+Priority: optional
+Maintainer: D. Stuart Freeman <stuart.freeman@et.gatech.edu>
+Homepage: http://oaeproject.org
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.2
+
+Package: oae-full
+Architecture: all
+Depends: hilary, 3akai-ux, redis-server, rabbitmq-server, elasticsearch, cassandra | dse | dsc12
+Description: Virtual package to install all the OAE dependencies
+ Installs hilary and 3akai-ux along with the services to support them.

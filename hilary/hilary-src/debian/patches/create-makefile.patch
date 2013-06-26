@@ -1,0 +1,11 @@
+Create a Makefile to copy over the files
+--- /dev/null
++++ b/Makefile
+@@ -0,0 +1,7 @@
++#!/usr/bin/make -f
++# -*- makefile -*-
++# Simple Makefile to copy static files
++
++install:
++	mkdir -p debian/hilary/opt/oae
++	/bin/tar --exclude=debian -cpf - .  | /bin/tar -C debian/hilary/opt/oae/ -xpf -

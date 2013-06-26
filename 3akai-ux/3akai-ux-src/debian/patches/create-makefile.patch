@@ -1,0 +1,11 @@
+Create a Makefile to copy over the files
+--- /dev/null
++++ b/Makefile
+@@ -0,0 +1,7 @@
++#!/usr/bin/make -f
++# -*- makefile -*-
++# Simple Makefile to copy static files
++
++install:
++	mkdir -p debian/3akai-ux/opt/3akai-ux
++	/bin/tar -C target --exclude=debian -cpf - .  | /bin/tar -C debian/3akai-ux/opt/3akai-ux/ -xpf -

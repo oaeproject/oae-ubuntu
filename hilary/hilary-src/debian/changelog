@@ -1,0 +1,35 @@
+hilary (0.2.0~beta1-6) precise; urgency=low
+
+  * slim dependencies so services can be split out to other hosts
+
+ -- D. Stuart Freeman <stuart.freeman@et.gatech.edu>  Tue, 25 Jun 2013 22:26:47 +0000
+
+hilary (0.2.0~beta1-5) precise; urgency=low
+
+  * dsc12 is also a workable cassandra
+
+ -- D. Stuart Freeman <stuart.freeman@et.gatech.edu>  Tue, 25 Jun 2013 18:10:57 +0000
+
+hilary (0.2.0~beta1-4) precise; urgency=low
+
+  * depend on cassandra or dse
+
+ -- D. Stuart Freeman <stuart.freeman@et.gatech.edu>  Tue, 25 Jun 2013 17:48:54 +0000
+
+hilary (0.2.0~beta1-3) precise; urgency=low
+
+  * why isn't $DESTDIR working? Whatever, we'll just hardcode paths :P
+
+ -- D. Stuart Freeman <stuart.freeman@et.gatech.edu>  Tue, 25 Jun 2013 16:20:04 +0000
+
+hilary (0.2.0~beta1-2) precise; urgency=low
+
+  * Remove .git dir
+
+ -- D. Stuart Freeman <stuart.freeman@et.gatech.edu>  Tue, 25 Jun 2013 13:37:35 +0000
+
+hilary (0.2.0~beta1-1) precise; urgency=low
+
+  * Initial release
+
+ -- D. Stuart Freeman <stuart.freeman@et.gatech.edu>  Sun, 23 Jun 2013 14:17:08 -0400

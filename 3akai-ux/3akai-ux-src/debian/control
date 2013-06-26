@@ -1,0 +1,15 @@
+Source: 3akai-ux
+Section: web
+Priority: extra
+Maintainer: D. Stuart Freeman <stuart.freeman@et.gatech.edu>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: http://oaeproject.org
+#Vcs-Git: git://git.debian.org/collab-maint/3akai-ux.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/3akai-ux.git;a=summary
+
+Package: 3akai-ux
+Architecture: all
+Depends: ${misc:Depends}
+Description: Front end user interface for OAE
+ The HTML, Javascript and CSS that makes up the OAE frontend.
