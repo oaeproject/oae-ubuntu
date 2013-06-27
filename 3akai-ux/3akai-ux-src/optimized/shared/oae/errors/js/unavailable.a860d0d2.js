@@ -1,0 +1,1 @@
+define(["jquery"],function(e){var t=function(){e.ajax({url:"/api/me",success:function(){window.location="/me"}})};t(),setInterval(t,6e4)});

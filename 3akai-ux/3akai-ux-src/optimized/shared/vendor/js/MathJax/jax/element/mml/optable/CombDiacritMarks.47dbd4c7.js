@@ -1,0 +1,1 @@
+(function(e){var t=e.mo.OPTYPES,n=e.TEXCLASS;MathJax.Hub.Insert(e.mo.prototype,{OPTABLE:{postfix:{"̑":t.ACCENT}}}),MathJax.Ajax.loadComplete(e.optableDir+"/CombDiacritMarks.js")})(MathJax.ElementJax.mml);

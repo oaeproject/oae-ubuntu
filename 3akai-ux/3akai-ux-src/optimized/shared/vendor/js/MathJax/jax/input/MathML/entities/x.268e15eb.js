@@ -1,0 +1,1 @@
+(function(e){MathJax.Hub.Insert(e.Parse.Entity,{xcap:"⋂",xcirc:"◯",xcup:"⋃",xdtri:"▽",xhArr:"⟺",xharr:"⟷",xlArr:"⟸",xlarr:"⟵",xmap:"⟼",xnis:"⋻",xodot:"⨀",xoplus:"⨁",xotime:"⨂",xrArr:"⟹",xrarr:"⟶",xsqcup:"⨆",xuplus:"⨄",xutri:"△",xvee:"⋁",xwedge:"⋀"}),MathJax.Ajax.loadComplete(e.entityDir+"/x.js")})(MathJax.InputJax.MathML);

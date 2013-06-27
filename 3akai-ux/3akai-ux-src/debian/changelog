@@ -1,3 +1,9 @@
+3akai-ux (3akai-ux_0.2.0-1) precise; urgency=low
+
+  * upstream 0.2.0
+
+ -- Stuart Freeman <stuart.freeman@et.gatech.edu>  Thu, 27 Jun 2013 19:33:10 -0400
+
 3akai-ux (0.2.0~beta1-2) precise; urgency=low
 
   * DESTDIR isn't working, hardcoding path :P

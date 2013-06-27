@@ -1,0 +1,1 @@
+require(["jquery","oae.core"],function(e,t){t.api.util.setBrowserTitle("__MSG__WELCOME__");var n=function(){e(document).on("submit","#index-search-form",function(){var n=e.trim(e("#index-search-query",e(this)).val());return window.location="/search/"+t.api.util.security().encodeForURL(n),!1})};n()});

@@ -1,3 +1,9 @@
+hilary (hilary_0.2.0-1) precise; urgency=low
+
+  * upstream 0.2.0
+
+ -- Stuart Freeman <stuart.freeman@et.gatech.edu>  Thu, 27 Jun 2013 19:32:05 -0400
+
 hilary (0.2.0~beta1-7) precise; urgency=low
 
   * fix upstart script

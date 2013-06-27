@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <noscript>
+            <meta http-equiv="Refresh" content="1; URL=/noscript">
+        </noscript>
+
+        <!-- CORE CSS -->
+        <link rel="stylesheet" type="text/css" href="/shared/oae/css/oae.core.aef5ccee.css" />
+        <link rel="stylesheet" type="text/css" href="/api/ui/skin" />
+
+    </head>
+    <body>
+
+        <!-- HEADER -->
+        <div data-widget="topnavigation"><!-- --></div>
+
+        <!-- BODY -->
+        <div class="oae-main-content">
+
+            <!-- CLIP -->
+            <div class="oae-clip-container">
+                <div id="user-clip-container" class="oae-clip-container-left"><!-- --></div>
+                <div id="user-clip-template"><!--
+                    <div class="oae-clip">
+                        <div class="oae-clip-fold">
+                            <div class="oae-clip-fold-inner"></div>
+                            <div class="oae-clip-fold-outer"></div>
+                        </div>
+                        <div class="oae-clip-content">
+                            <button disabled="disabled">
+                                ${renderThumbnail(user, false, false, false)}
+                                <div>
+                                    <div>
+                                        <h1 class="oae-threedots">${user.displayName|encodeForHTML}</h1>
+                                        <small>${user.tenant.displayName|encodeForHTML}</small>
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                --></div>
+            </div>
+
+            <!-- CONTENT -->
+            <div data-widget="lhnavigation"><!-- --></div>
+        </div>
+
+        <!-- FOOTER -->
+        <div data-widget="footer"><!-- --></div>
+
+        <!-- JAVASCRIPT -->
+        <script data-main="/shared/oae/api/oae.bootstrap.4a7e8d16.js" data-loadmodule="/ui/js/user.abc64323.js" src="/shared/vendor/js/requirejs/require-jquery.3f5c3fe4.js"></script>
+
+    </body>
+</html>

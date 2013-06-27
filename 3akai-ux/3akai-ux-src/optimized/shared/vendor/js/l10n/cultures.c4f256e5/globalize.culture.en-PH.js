@@ -1,0 +1,1 @@
+(function(e,t){var n;typeof require!="undefined"&&typeof exports!="undefined"&&typeof module!="undefined"?n=require("globalize"):n=e.Globalize,n.addCultureInfo("en-PH","default",{name:"en-PH",englishName:"English (Republic of the Philippines)",nativeName:"English (Philippines)",numberFormat:{currency:{symbol:"Php"}}})})(this);

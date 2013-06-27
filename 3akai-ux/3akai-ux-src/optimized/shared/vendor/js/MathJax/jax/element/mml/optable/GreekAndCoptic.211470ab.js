@@ -1,0 +1,1 @@
+(function(e){var t=e.mo.OPTYPES,n=e.TEXCLASS;MathJax.Hub.Insert(e.mo.prototype,{OPTABLE:{infix:{"϶":t.REL}}}),MathJax.Ajax.loadComplete(e.optableDir+"/GreekAndCoptic.js")})(MathJax.ElementJax.mml);

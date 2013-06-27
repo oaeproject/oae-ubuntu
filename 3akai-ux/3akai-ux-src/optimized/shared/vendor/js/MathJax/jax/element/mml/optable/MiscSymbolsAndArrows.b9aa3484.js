@@ -1,0 +1,1 @@
+(function(e){var t=e.mo.OPTYPES,n=e.TEXCLASS;MathJax.Hub.Insert(e.mo.prototype,{OPTABLE:{infix:{"⭅":t.RELSTRETCH,"⭆":t.RELSTRETCH}}}),MathJax.Ajax.loadComplete(e.optableDir+"/MiscSymbolsAndArrows.js")})(MathJax.ElementJax.mml);

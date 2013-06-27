@@ -1,0 +1,1 @@
+(function(e){e.fn.serializeObject=function(t){var n={},r=this.serializeArray();return t=t===!1?!1:!0,e.each(r,function(){if(n[this.name])n[this.name].push||(n[this.name]=[n[this.name]]),(t||e.trim(this.value)!=="")&&n[this.name].push(this.value||"");else if(t||e.trim(this.value)!=="")n[this.name]=this.value||""}),n}})($);

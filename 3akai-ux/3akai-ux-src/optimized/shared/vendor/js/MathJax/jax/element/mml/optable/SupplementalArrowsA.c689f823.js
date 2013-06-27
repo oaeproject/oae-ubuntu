@@ -1,0 +1,1 @@
+(function(e){var t=e.mo.OPTYPES,n=e.TEXCLASS;MathJax.Hub.Insert(e.mo.prototype,{OPTABLE:{infix:{"⟰":t.RELSTRETCH,"⟱":t.RELSTRETCH,"⟻":t.WIDEREL,"⟽":t.WIDEREL,"⟾":t.WIDEREL,"⟿":t.WIDEREL}}}),MathJax.Ajax.loadComplete(e.optableDir+"/SupplementalArrowsA.js")})(MathJax.ElementJax.mml);
