@@ -1,0 +1,11 @@
+oae-full (0.2.0-1) precise; urgency=low
+
+  * upstream release
+
+ -- D. Stuart Freeman <stuart.freeman@et.gatech.edu>  Fri, 28 Jun 2013 00:14:00 +0000
+
+oae-full (0.2.0~beta1-1) precise; urgency=low
+
+  * First version
+
+ -- D. Stuart Freeman <stuart.freeman@et.gatech.edu>  Tue, 25 Jun 2013 22:20:04 +0000
