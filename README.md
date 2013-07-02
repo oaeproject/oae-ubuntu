@@ -3,7 +3,7 @@ Installing OAE on Ubuntu from Packages
 
 You can use a few PPAs and manually download a single .deb to install OAE and its dependencies on Ubuntu:
 
-    wget https://download.elasticsearch ^M.org/elasticsearch/elasticsearch/elasticsearch-0.90.2.deb
+    wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.90.2.deb
     sudo dpkg -i elasticsearch-0.90.2.deb
     sudo sh -c "echo 'deb http://debian.datastax.com/community stable main' > /etc/apt/sources.list.d/cassandra.sources.list"
     curl -L http://debian.datastax.com/debian/repo_key | sudo apt-key add -
