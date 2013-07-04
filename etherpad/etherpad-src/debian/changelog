@@ -1,0 +1,23 @@
+etherpad-lite (1.2.91-4) precise; urgency=low
+
+  * Added an empty file in var so it gets picked up
+
+ -- Simon Gaeremynck <gaeremyncks@gmail.com>  Wed, 03 Jul 2013 17:42:52 +0100
+
+etherpad-lite (1.2.91-3) precise; urgency=low
+
+  * Bumped version number
+
+ -- Simon Gaeremynck <gaeremyncks@gmail.com>  Wed, 03 Jul 2013 17:06:36 +0100
+
+etherpad-lite (1.2.91-2) precise; urgency=low
+
+  * Added an empty var directory
+
+ -- Simon Gaeremynck <gaeremyncks@gmail.com>  Wed, 03 Jul 2013 17:00:10 +0100
+
+etherpad-lite (1.2.91-1) precise; urgency=low
+
+  * Initial release
+
+ -- Simon Gaeremynck <gaeremyncks@gmail.com>  Wed, 03 Jul 2013 15:41:14 +0100

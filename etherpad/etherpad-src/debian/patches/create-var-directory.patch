@@ -1,0 +1,6 @@
+Create a var directory which can contain the static assets
+--- /dev/null
++++ b/var/readme.md
+@@ -0,0 +1 @@
++This `var` directory will contain the minified static assets.
+

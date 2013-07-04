@@ -1,0 +1,15 @@
+Source: etherpad-lite
+Section: web
+Priority: extra
+Maintainer: Simon Gaeremynck <gaeremyncks@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: http://etherpad.org
+#Vcs-Git: git://git.debian.org/collab-maint/etherpad-lite.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/etherpad-lite.git;a=summary
+
+Package: etherpad-lite
+Architecture: all
+Depends: ${misc:Depends}
+Description: Etherpad-lite ubuntu package
+ The etherpad-lite ubuntu package
