@@ -34,7 +34,7 @@ Packaging a Hilary update
   * `cd` into `hilary-src` and run `debchange -v <version>` (e.g., `debchange -v 0.2.0-3`) to add an entry to the changelog. The formatting of the comments, header and signature of log are **very sensitive** keep spacing exact
   * Create a patch for the new changes by running this:
 
-`dpkg-source --commit --extend-diff-ignore="(.*\.a|.*\.o|.*\.node|.*\.t?gz|.*\.bz2|.*\.ico|.*/phantomjs)$"`
+`dpkg-source --commit --extend-diff-ignore="(.*\.a|.*\.o|.*\.node|.*\.t?gz|.*\.bz2|.*\.ico|.*/bin/phantomjs)$"`
 
 Note that the `--extend-diff-ignore` flag is telling the patch generator to ignore all binary files. If later a new binary file gets introduced that does not match this pattern, you will receive errors during this step that say something like:
 
