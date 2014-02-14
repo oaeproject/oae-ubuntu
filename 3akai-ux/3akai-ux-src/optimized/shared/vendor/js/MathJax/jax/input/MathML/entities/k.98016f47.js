@@ -1,1 +1,0 @@
-(function(e){MathJax.Hub.Insert(e.Parse.Entity,{KHcy:"Х",KJcy:"Ќ",Kappa:"Κ",Kcedil:"Ķ",Kcy:"К",kcedil:"ķ",kcy:"к",kgreen:"ĸ",khcy:"х",kjcy:"ќ"}),MathJax.Ajax.loadComplete(e.entityDir+"/k.js")})(MathJax.InputJax.MathML);

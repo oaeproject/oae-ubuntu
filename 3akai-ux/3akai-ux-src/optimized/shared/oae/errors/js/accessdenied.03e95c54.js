@@ -1,1 +1,0 @@
-require(["jquery","oae.core"],function(e,t){t.api.util.setBrowserTitle("__MSG__ACCESS_DENIED__"),t.data.me.anon&&(e("#error-signin").removeClass("hide"),e(document).on("click","#error-signin",function(t){return e("#topnavigation-signin").click(),!1}))});

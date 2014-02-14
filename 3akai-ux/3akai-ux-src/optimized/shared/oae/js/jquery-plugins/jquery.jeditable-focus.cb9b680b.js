@@ -1,1 +1,0 @@
-define(["jquery"],function(e){(function(e){e(document).on("focus",".jeditable-field",function(t){e(this).keypress(function(t){(t.which==13||t.which==32)&&e(this).trigger("click.editable")})})})(e)});

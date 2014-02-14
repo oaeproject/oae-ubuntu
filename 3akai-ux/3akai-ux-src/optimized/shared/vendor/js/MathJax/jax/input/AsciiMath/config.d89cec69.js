@@ -1,1 +1,0 @@
-MathJax.InputJax.AsciiMath=MathJax.InputJax({id:"AsciiMath",version:"2.0",directory:MathJax.InputJax.directory+"/AsciiMath",extensionDir:MathJax.InputJax.extensionDir+"/AsciiMath",config:{displaystyle:!0,decimal:"."}}),MathJax.InputJax.AsciiMath.Register("math/asciimath"),MathJax.InputJax.AsciiMath.loadComplete("config.js");

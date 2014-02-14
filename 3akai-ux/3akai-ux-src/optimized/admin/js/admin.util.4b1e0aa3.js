@@ -1,1 +1,0 @@
-define(["exports","jquery","oae.core"],function(e,t,n){e.showConfirmationModal=function(e){n.api.util.template().render(t("#admin-confirmation-template"),{modal:e},t("#admin-confirmation-container")),t("#"+e.id).modal({backdrop:"static"}),t("#"+e.id+"-confirm",t("#"+e.id)).click(e.confirmed)}});

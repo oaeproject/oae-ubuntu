@@ -1,1 +1,0 @@
-define(["jquery"],function(e){(function(e){e(document).on("focus",'input[type="file"]',function(){var t=e(this).parent();t.hasClass("btn")&&t.addClass("oae-focus")}),e(document).on("focusout",'input[type="file"]',function(){var t=e(this).parent();t.hasClass("btn")&&t.removeClass("oae-focus")})})(e)});

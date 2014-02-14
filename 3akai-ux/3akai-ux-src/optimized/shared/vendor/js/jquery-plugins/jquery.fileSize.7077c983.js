@@ -1,1 +1,0 @@
-(function(e){e.fn.fileSize=function(e){var t=["bytes","KB","MB","GB","TB","PB"],n=0;while(e>=1024)e/=1024,n++;return Math.round(e*10)/10+" "+t[n]}})($);
